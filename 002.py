@@ -14,3 +14,15 @@ else:
 itens_do_cardapio.remove("pizza")
 
 print(itens_do_cardapio)
+
+# Sua lista inicial
+cardapio = ['pizza', 'pastel', 'coxinha']
+
+# Inserindo 'refrigerante' na primeira posição (índice 0)
+cardapio.insert(0, 'refrigerante')
+
+# Inserindo 'suco' na terceira posição (índice 2)
+cardapio.insert(2, 'suco')
+
+# Resultado esperados
+print(cardapio)
